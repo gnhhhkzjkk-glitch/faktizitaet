@@ -62,6 +62,17 @@ Die malerische Umsetzung verbindet dabei Ausdruck und Betrachtung und schafft Ra
 
 Das Gemälde soll den Betrachter dazu anregen, die eigene Sichtweise zu hinterfragen und zwischen objektiver Wirklichkeit und persönlicher Wahrnehmung zu unterscheiden.
     </p>
+<button onclick="vorlesen()">🔊 Beschreibung vorlesen</button>
+
+<script>
+function vorlesen() {
+  const text = document.body.innerText;
+  const sprache = new SpeechSynthesisUtterance(text);
+  sprache.lang = "de-DE";
+  speechSynthesis.cancel();
+  speechSynthesis.speak(sprache);
+}
+</script>
 
   </div>
 </body>
