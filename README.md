@@ -1,4 +1,4 @@
-![Faktizität](/5a344ba9-d192-4323-aa0d-dd3b2aca4d45.jpeg)
+![Faktizität](IMG_20250702_140345.jpg)
 # Faktizität
 
 **Titel:** Faktizität  
